@@ -15,3 +15,6 @@ valgrind —leak-check=full ./app/shell-app
 ## Run Kcachegrind to check
 
 valgrind --tool=callgrind ./app/shell-app
+
+## Output files
+cd output_files
